@@ -1,0 +1,807 @@
+{
+ "stats": {
+  "nvfp4_tensors_bitcheck": 30841,
+  "nvfp4_bit_mismatch": 0,
+  "scale_sign_or_nan_bytes": 0
+ },
+ "rows": [
+  {
+   "tensor": "L0 expert0 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 3.2152449421118945e-05
+  },
+  {
+   "tensor": "L0 expert0 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 3.2152449421118945e-05
+  },
+  {
+   "tensor": "L0 expert0 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 3.233410097891465e-05
+  },
+  {
+   "tensor": "L0 expert128 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 1.8801008991431445e-05
+  },
+  {
+   "tensor": "L0 expert128 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 1.8801008991431445e-05
+  },
+  {
+   "tensor": "L0 expert128 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 2.252487865916919e-05
+  },
+  {
+   "tensor": "L0 expert255 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 2.543131631682627e-05
+  },
+  {
+   "tensor": "L0 expert255 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 2.543131631682627e-05
+  },
+  {
+   "tensor": "L0 expert255 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 4.5958018745295703e-05
+  },
+  {
+   "tensor": "L0 shared_expert gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 7.593064219690859e-05
+  },
+  {
+   "tensor": "L0 shared_expert up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 7.593064219690859e-05
+  },
+  {
+   "tensor": "L0 shared_expert down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 0.00011625744082266465
+  },
+  {
+   "tensor": "L19 expert0 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 4.686628017225303e-05
+  },
+  {
+   "tensor": "L19 expert0 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 4.686628017225303e-05
+  },
+  {
+   "tensor": "L19 expert0 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 2.361479346291162e-05
+  },
+  {
+   "tensor": "L19 expert128 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 3.0517578125e-05
+  },
+  {
+   "tensor": "L19 expert128 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 3.0517578125e-05
+  },
+  {
+   "tensor": "L19 expert128 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 2.2797357814852148e-05
+  },
+  {
+   "tensor": "L19 expert255 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 2.8519403713289648e-05
+  },
+  {
+   "tensor": "L19 expert255 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 2.8519403713289648e-05
+  },
+  {
+   "tensor": "L19 expert255 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 1.9618442820501514e-05
+  },
+  {
+   "tensor": "L19 shared_expert gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 7.120768714230508e-05
+  },
+  {
+   "tensor": "L19 shared_expert up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 7.120768714230508e-05
+  },
+  {
+   "tensor": "L19 shared_expert down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 0.00019182478717993945
+  },
+  {
+   "tensor": "L39 expert0 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 7.665724842809141e-05
+  },
+  {
+   "tensor": "L39 expert0 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 7.665724842809141e-05
+  },
+  {
+   "tensor": "L39 expert0 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 4.5594715629704297e-05
+  },
+  {
+   "tensor": "L39 expert128 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 8.464995335089043e-05
+  },
+  {
+   "tensor": "L39 expert128 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 8.464995335089043e-05
+  },
+  {
+   "tensor": "L39 expert128 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 7.484072557417676e-05
+  },
+  {
+   "tensor": "L39 expert255 gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 9.227934788214043e-05
+  },
+  {
+   "tensor": "L39 expert255 up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 9.227934788214043e-05
+  },
+  {
+   "tensor": "L39 expert255 down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 0.0001903715601656586
+  },
+  {
+   "tensor": "L39 shared_expert gate",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 0.00010971796291414648
+  },
+  {
+   "tensor": "L39 shared_expert up",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 0.00010971796291414648
+  },
+  {
+   "tensor": "L39 shared_expert down",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    2048,
+    512
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 0.00011335100862197578
+  },
+  {
+   "tensor": "lm_head",
+   "src": "NVFP4 (U8 packed E2M1 + F8_E4M3 block scale + F32 scale_2)",
+   "gguf": "NVFP4 + F32 .scale",
+   "shape": [
+    248320,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "scale2": 0.00011189778888365254
+  },
+  {
+   "tensor": "token_embd",
+   "src": "bfloat16",
+   "gguf": "BF16",
+   "shape": [
+    248320,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L0 router gate",
+   "src": "bfloat16",
+   "gguf": "F32",
+   "shape": [
+    256,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L0 shared_expert_gate",
+   "src": "bfloat16",
+   "gguf": "F32",
+   "shape": [
+    1,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L3 router gate",
+   "src": "bfloat16",
+   "gguf": "F32",
+   "shape": [
+    256,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L3 shared_expert_gate",
+   "src": "bfloat16",
+   "gguf": "F32",
+   "shape": [
+    1,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L39 router gate",
+   "src": "bfloat16",
+   "gguf": "F32",
+   "shape": [
+    256,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L39 shared_expert_gate",
+   "src": "bfloat16",
+   "gguf": "F32",
+   "shape": [
+    1,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L0 linear_attn in_proj_a",
+   "src": "bfloat16",
+   "gguf": "BF16",
+   "shape": [
+    32,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L0 linear_attn in_proj_b",
+   "src": "bfloat16",
+   "gguf": "BF16",
+   "shape": [
+    32,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L20 linear_attn in_proj_a",
+   "src": "bfloat16",
+   "gguf": "BF16",
+   "shape": [
+    32,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L20 linear_attn in_proj_b",
+   "src": "bfloat16",
+   "gguf": "BF16",
+   "shape": [
+    32,
+    2048
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "mtp.fc",
+   "src": "bfloat16",
+   "gguf": "BF16",
+   "shape": [
+    2048,
+    4096
+   ],
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "note": ""
+  },
+  {
+   "tensor": "L3 full_attn q_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000763)",
+   "gguf": "BF16",
+   "shape": [
+    8192,
+    2048
+   ],
+   "max_abs_diff": 0.0009765326976776123,
+   "max_rel_diff": 0.0036362522598264095,
+   "frac_exact": 4.118680953979492e-05,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L3 full_attn k_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000421)",
+   "gguf": "BF16",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0003487616777420044,
+   "max_rel_diff": 0.002590778716800805,
+   "frac_exact": 2.288818359375e-05,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L3 full_attn v_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.00034)",
+   "gguf": "BF16",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0002790093421936035,
+   "max_rel_diff": 0.0021366867889217288,
+   "frac_exact": 0.11174964904785156,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L3 full_attn o_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.00131)",
+   "gguf": "BF16",
+   "shape": [
+    2048,
+    4096
+   ],
+   "max_abs_diff": 0.0008370578289031982,
+   "max_rel_diff": 0.0033333503440577247,
+   "frac_exact": 0.11593437194824219,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L39 full_attn q_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000942)",
+   "gguf": "BF16",
+   "shape": [
+    8192,
+    2048
+   ],
+   "max_abs_diff": 0.0008370578289031982,
+   "max_rel_diff": 0.002136763028058033,
+   "frac_exact": 0.11363738775253296,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L39 full_attn k_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000512)",
+   "gguf": "BF16",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.00041854381561279297,
+   "max_rel_diff": 0.0021277459649488547,
+   "frac_exact": 3.62396240234375e-05,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L39 full_attn v_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000863)",
+   "gguf": "BF16",
+   "shape": [
+    512,
+    2048
+   ],
+   "max_abs_diff": 0.0008370578289031982,
+   "max_rel_diff": 0.0030303183965152258,
+   "frac_exact": 0.10927200317382812,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L39 full_attn o_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.00121)",
+   "gguf": "BF16",
+   "shape": [
+    2048,
+    4096
+   ],
+   "max_abs_diff": 0.0008370578289031982,
+   "max_rel_diff": 0.00215820737386751,
+   "frac_exact": 0.11411535739898682,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": ""
+  },
+  {
+   "tensor": "L0 linear_attn in_proj_qkv",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000859)",
+   "gguf": "BF16",
+   "shape": [
+    8192,
+    2048
+   ],
+   "max_abs_diff": 0.000558018684387207,
+   "max_rel_diff": 0.002030394762353592,
+   "frac_exact": 0.013731300830841064,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L0 linear_attn in_proj_z",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000641)",
+   "gguf": "BF16",
+   "shape": [
+    4096,
+    2048
+   ],
+   "max_abs_diff": 0.00048828125,
+   "max_rel_diff": 0.003663003663003663,
+   "frac_exact": 0.8028770685195923,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L0 linear_attn out_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000955)",
+   "gguf": "BF16",
+   "shape": [
+    2048,
+    4096
+   ],
+   "max_abs_diff": 0.0008370578289031982,
+   "max_rel_diff": 0.0027397399241862546,
+   "frac_exact": 0.1120903491973877,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L20 linear_attn in_proj_qkv",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000916)",
+   "gguf": "BF16",
+   "shape": [
+    8192,
+    2048
+   ],
+   "max_abs_diff": 2.9802322387695312e-08,
+   "max_rel_diff": 1.1302805435428712e-07,
+   "frac_exact": 4.2378902435302734e-05,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L20 linear_attn in_proj_z",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.000728)",
+   "gguf": "BF16",
+   "shape": [
+    4096,
+    2048
+   ],
+   "max_abs_diff": 0.00041854381561279297,
+   "max_rel_diff": 0.001796352265152493,
+   "frac_exact": 0.11251568794250488,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": "multiset compare (V-head reorder)"
+  },
+  {
+   "tensor": "L20 linear_attn out_proj",
+   "src": "F8_E4M3 + F32 per-tensor weight_scale (0.00175)",
+   "gguf": "BF16",
+   "shape": [
+    2048,
+    4096
+   ],
+   "max_abs_diff": 0.001674056053161621,
+   "max_rel_diff": 0.002984983257693777,
+   "frac_exact": 0.10788238048553467,
+   "bit_identical": false,
+   "equals_bf16_round_of_fp32_dequant": true,
+   "note": "multiset compare (V-head reorder)"
+  }
+ ]
+}

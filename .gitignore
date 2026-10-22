@@ -1,0 +1,4 @@
+*.gguf
+*.safetensors
+*.bin
+__pycache__/

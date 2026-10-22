@@ -1,0 +1,170 @@
+[
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 158,
+   "prompt_tokens": 23,
+   "total_tokens": 181,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.161,
+  "time_to_answer_s": 3.076,
+  "total_s": 3.211,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 23,
+   "prompt_ms": 88.015,
+   "prompt_per_token_ms": 3.8267391304347824,
+   "prompt_per_second": 261.3190933363631,
+   "predicted_n": 158,
+   "predicted_ms": 3050.142,
+   "predicted_per_token_ms": 19.427656050955413,
+   "predicted_per_second": 51.47301338757344
+  },
+  "decode_tok_s": 51.5,
+  "name": "warmup"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 158,
+   "prompt_tokens": 23,
+   "total_tokens": 181,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.078,
+  "time_to_answer_s": 3.036,
+  "total_s": 3.168,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 49.228,
+   "prompt_per_token_ms": 12.307,
+   "prompt_per_second": 81.25457056959453,
+   "predicted_n": 158,
+   "predicted_ms": 3089.726,
+   "predicted_per_token_ms": 19.679783439490446,
+   "predicted_per_second": 50.813567287196335
+  },
+  "decode_tok_s": 50.8,
+  "name": "short_1"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 158,
+   "prompt_tokens": 23,
+   "total_tokens": 181,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.051,
+  "time_to_answer_s": 2.951,
+  "total_s": 3.094,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 48.59,
+   "prompt_per_token_ms": 12.1475,
+   "prompt_per_second": 82.32146532208273,
+   "predicted_n": 158,
+   "predicted_ms": 3043.006,
+   "predicted_per_token_ms": 19.38220382165605,
+   "predicted_per_second": 51.59372015697636
+  },
+  "decode_tok_s": 51.6,
+  "name": "short_2"
+ },
+ {
+  "content": "아래는 Python으로 작성한 간단한 할 일 관리 CLI(Command Line Interface) 프로그램입니다. 코드와 함께 동작 원리, 주요 구현 포인트, 실행 방법, 확장 방안을 한국어로 자세히 설명해 드립니다.\n\n---\n### 📦 전체 코드 (`todo_cli.py`)\n```python\nimport json\nimport os\n\n# 할 일 데이터가 저장될 파일 경로\nTODO_FILE = \"todos.json\"\n\ndef load_todos():\n    \"\"\"저장된 할 일 데이터를 JSON 파일에서 불러옵니다.\"\"\"\n    if",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 3467,
+   "prompt_tokens": 30,
+   "total_tokens": 3497,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.105,
+  "time_to_answer_s": 33.523,
+  "total_s": 67.984,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 30,
+   "prompt_ms": 102.681,
+   "prompt_per_token_ms": 3.4227,
+   "prompt_per_second": 292.16700265871975,
+   "predicted_n": 3467,
+   "predicted_ms": 67878.395,
+   "predicted_per_token_ms": 19.58407241777265,
+   "predicted_per_second": 51.06190268641443
+  },
+  "decode_tok_s": 51.1,
+  "name": "long_gen"
+ },
+ {
+  "content": "인공지능 기술은 제조, 의료, 교육 등 산업 전반에 걸쳐 혁신적인 변화를 주도하고 있다. 제조업에서는 공정 자동화와 품질 검사를 통해 생산성이 크게 향상되었으며, 의료 분야에서는 영상 판독과 신약 개발 등에서 기대되는 성과를 보이고 있다. 그러나 의료의 개인정보 보호와 책임 소재 문제, 교육의 디지털 격차로 인한",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 6091
+   }
+  },
+  "ttft_s": 0.125,
+  "time_to_answer_s": 19.038,
+  "total_s": 20.418,
+  "server_timings": {
+   "cache_n": 6091,
+   "prompt_n": 4,
+   "prompt_ms": 50.327,
+   "prompt_per_token_ms": 12.58175,
+   "prompt_per_second": 79.48019949530074,
+   "predicted_n": 1024,
+   "predicted_ms": 20293.085,
+   "predicted_per_token_ms": 19.836837732160312,
+   "predicted_per_second": 50.411260781689926
+  },
+  "decode_tok_s": 50.4,
+  "name": "long_prompt_1"
+ },
+ {
+  "content": "인공지능 기술은 제조, 의료, 교육 등 산업 전반에 걸쳐 혁신적인 변화를 주도하고 있다. 제조업에서는 공정 자동화와 품질 검사를 통해 생산성이 크게 향상되었으며, 의료 분야에서는 영상 판독과 신약 개발 등에서 기대되는 성과를 보이고 있다. 그러나 의료의 개인정보 보호와 책임 소재 문제, 교육의 디지털 격차로 인한",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 6091
+   }
+  },
+  "ttft_s": 0.065,
+  "time_to_answer_s": 19.358,
+  "total_s": 20.764,
+  "server_timings": {
+   "cache_n": 6091,
+   "prompt_n": 4,
+   "prompt_ms": 49.152,
+   "prompt_per_token_ms": 12.288,
+   "prompt_per_second": 81.38020833333333,
+   "predicted_n": 1024,
+   "predicted_ms": 20698.605,
+   "predicted_per_token_ms": 20.233240469208212,
+   "predicted_per_second": 49.42362057732876
+  },
+  "decode_tok_s": 49.4,
+  "name": "long_prompt_2"
+ }
+]

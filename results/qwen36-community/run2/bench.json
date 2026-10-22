@@ -1,0 +1,170 @@
+[
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 172,
+   "prompt_tokens": 23,
+   "total_tokens": 195,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.364,
+  "time_to_answer_s": 2.879,
+  "total_s": 2.984,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 23,
+   "prompt_ms": 348.683,
+   "prompt_per_token_ms": 15.160130434782609,
+   "prompt_per_second": 65.96249315280642,
+   "predicted_n": 172,
+   "predicted_ms": 2619.717,
+   "predicted_per_token_ms": 15.319982456140352,
+   "predicted_per_second": 65.2742261855002
+  },
+  "decode_tok_s": 65.3,
+  "name": "warmup"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 172,
+   "prompt_tokens": 23,
+   "total_tokens": 195,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.072,
+  "time_to_answer_s": 2.577,
+  "total_s": 2.682,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 41.518,
+   "prompt_per_token_ms": 10.3795,
+   "prompt_per_second": 96.34375451611349,
+   "predicted_n": 172,
+   "predicted_ms": 2610.491,
+   "predicted_per_token_ms": 15.266029239766082,
+   "predicted_per_second": 65.50491842339238
+  },
+  "decode_tok_s": 65.5,
+  "name": "short_1"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 172,
+   "prompt_tokens": 23,
+   "total_tokens": 195,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.047,
+  "time_to_answer_s": 2.495,
+  "total_s": 2.596,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 44.515,
+   "prompt_per_token_ms": 11.12875,
+   "prompt_per_second": 89.85735145456587,
+   "predicted_n": 172,
+   "predicted_ms": 2550.082,
+   "predicted_per_token_ms": 14.912760233918128,
+   "predicted_per_second": 67.05666719736855
+  },
+  "decode_tok_s": 67.1,
+  "name": "short_2"
+ },
+ {
+  "content": "아래는 파일 기반 데이터 저장이 가능한 간단한 **할 일 관리 CLI 프로그램**입니다. 이어서 프로그램의 구조와 핵심 논리를 한국어로 상세히 설명해 드립니다.\n\n---\n\n### 📜 Python 코드 (`todo.py`)\n\n```python\nimport json\nimport os\n\nDATA_FILE = \"tasks.json\"\n\ndef load_tasks():\n    \"\"\"저장된 작업 데이터를 JSON 파일에서 불러옵니다.\"\"\"\n    if os.path.exists(DATA_FILE):\n        with open(DATA_FI",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 4096,
+   "prompt_tokens": 30,
+   "total_tokens": 4126,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.08,
+  "time_to_answer_s": 34.02,
+  "total_s": 61.251,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 30,
+   "prompt_ms": 78.646,
+   "prompt_per_token_ms": 2.6215333333333333,
+   "prompt_per_second": 381.4561452585001,
+   "predicted_n": 4096,
+   "predicted_ms": 61170.468,
+   "predicted_per_token_ms": 14.937843223443224,
+   "predicted_per_second": 66.94406850050584
+  },
+  "decode_tok_s": 66.9,
+  "name": "long_gen"
+ },
+ {
+  "content": "인공지능 기술은 제조, 의료, 교육 등 주요 산업 전반에 걸쳐 업무 효율화 및 서비스 혁신을 주도하며 큰 변화를 가져오고 있다. \n제조업에서는 공정 자동화와 품질 검사를 통해 생산성이 크게 향상되었으며, 의료 분야에서는 영상 판독 보조와 신약 후보 물질 탐색에서 유의미한 성과를 거두고 있다. \n교육 현장에서는 학생 개인별 수준에 맞춘 맞춤형 학습이 가능해졌으나, 디지털 격차 심화에 따른 새로운 불평등 우려가 제기된다. \n연간 조사 결과 관련 기업의 인공지능 도입 검토 비율은 2020년부터 2025년까지 꾸준히 상승하는 추세로 기술 ",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 2.264,
+  "time_to_answer_s": 15.788,
+  "total_s": 17.986,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 6095,
+   "prompt_ms": 2213.383,
+   "prompt_per_token_ms": 0.3631473338802297,
+   "prompt_per_second": 2753.7032678031774,
+   "predicted_n": 1024,
+   "predicted_ms": 15721.897,
+   "predicted_per_token_ms": 15.368423264907136,
+   "predicted_per_second": 65.06848378411333
+  },
+  "decode_tok_s": 65.1,
+  "name": "long_prompt_1"
+ },
+ {
+  "content": "인공지능 기술은 제조, 의료, 교육 등 주요 산업 전반에 걸쳐 업무 효율화 및 서비스 혁신을 주도하며 큰 변화를 가져오고 있다. \n제조업에서는 공정 자동화와 품질 검사를 통해 생산성이 크게 향상되었으며, 의료 분야에서는 영상 판독 보조와 신약 후보 물질 탐색에서 유의미한 성과를 거두고 있다. \n교육 현장에서는 학생 개인별 수준에 맞춘 맞춤형 학습이 가능해졌으나, 디지털 격차 심화에 따른 새로운 불평등 우려가 제기된다. \n연간 조사 결과 관련 기업의 인공지능 도입 검토 비율은 2020년부터 2025년까지 꾸준히 상승하는 추세로 기술 ",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 6091
+   }
+  },
+  "ttft_s": 0.055,
+  "time_to_answer_s": 13.596,
+  "total_s": 15.757,
+  "server_timings": {
+   "cache_n": 6091,
+   "prompt_n": 4,
+   "prompt_ms": 44.808,
+   "prompt_per_token_ms": 11.202,
+   "prompt_per_second": 89.26977325477593,
+   "predicted_n": 1024,
+   "predicted_ms": 15701.479,
+   "predicted_per_token_ms": 15.34846432062561,
+   "predicted_per_second": 65.15309799796566
+  },
+  "decode_tok_s": 65.2,
+  "name": "long_prompt_2"
+ }
+]

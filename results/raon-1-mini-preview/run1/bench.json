@@ -1,0 +1,170 @@
+[
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 20,
+   "total_tokens": 60,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.156,
+  "time_to_answer_s": 0.818,
+  "total_s": 0.934,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 20,
+   "prompt_ms": 114.33,
+   "prompt_per_token_ms": 5.7165,
+   "prompt_per_second": 174.93221376716522,
+   "predicted_n": 40,
+   "predicted_ms": 778.167,
+   "predicted_per_token_ms": 19.953,
+   "predicted_per_second": 50.117776775422236
+  },
+  "decode_tok_s": 50.1,
+  "name": "warmup"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 30,
+   "prompt_tokens": 20,
+   "total_tokens": 50,
+   "prompt_tokens_details": {
+    "cached_tokens": 16
+   }
+  },
+  "ttft_s": 0.069,
+  "time_to_answer_s": 0.534,
+  "total_s": 0.653,
+  "server_timings": {
+   "cache_n": 16,
+   "prompt_n": 4,
+   "prompt_ms": 46.686,
+   "prompt_per_token_ms": 11.6715,
+   "prompt_per_second": 85.67879021548215,
+   "predicted_n": 30,
+   "predicted_ms": 583.866,
+   "predicted_per_token_ms": 20.133310344827585,
+   "predicted_per_second": 49.66893088482632
+  },
+  "decode_tok_s": 49.7,
+  "name": "short_1"
+ },
+ {
+  "content": "대한민국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 23,
+   "prompt_tokens": 20,
+   "total_tokens": 43,
+   "prompt_tokens_details": {
+    "cached_tokens": 16
+   }
+  },
+  "ttft_s": 0.07,
+  "time_to_answer_s": 0.395,
+  "total_s": 0.512,
+  "server_timings": {
+   "cache_n": 16,
+   "prompt_n": 4,
+   "prompt_ms": 47.65,
+   "prompt_per_token_ms": 11.9125,
+   "prompt_per_second": 83.94543546694649,
+   "predicted_n": 23,
+   "predicted_ms": 442.76,
+   "predicted_per_token_ms": 20.125454545454545,
+   "predicted_per_second": 49.68831872797904
+  },
+  "decode_tok_s": 49.7,
+  "name": "short_2"
+ },
+ {
+  "content": "아래 예제는 파이썬으로 만든 간단한 **할 일 관리 CLI 프로그램**입니다.\n\n주요 기능:\n- 할 일 추가\n- 할 일 목록 보기\n- 할 일 완료 처리\n- 할 일 삭제\n- 간단한 데이터 저장/불러오기\n- 종료 옵션\n\n---\n\n## 1. 전체 코드\n\n```python\nimport json\nimport os\nimport sys\n\n# 데이터 파일 이름\nDATA_FILE = \"todos.json\"\n\n\ndef load_todos():\n    \"\"\"\n    JSON 파일에서 할 일을 불러옵니다.\n    파일이 없거나 손상된 경우 빈 리스트를 ",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 2676,
+   "prompt_tokens": 24,
+   "total_tokens": 2700,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.121,
+  "time_to_answer_s": 1.853,
+  "total_s": 53.494,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 24,
+   "prompt_ms": 98.652,
+   "prompt_per_token_ms": 4.1105,
+   "prompt_per_second": 243.2794063982484,
+   "predicted_n": 2676,
+   "predicted_ms": 53373.114,
+   "predicted_per_token_ms": 19.95256598130841,
+   "predicted_per_second": 50.11886696361767
+  },
+  "decode_tok_s": 50.1,
+  "name": "long_gen"
+ },
+ {
+  "content": "인공지능 기술의 발전은 제조업의 공정 자동화와 품질 검사, 의료 분야의 영상 판독 보조 및 신약 개발 탐색, 교육 현장의 맞춤형 학습 도입 등 다양한 분야에서 산업 전반에 큰 변화를 일으키고 있습니다. 다만 의료 분야에서는 개인정보 보호와 책임 소재 문제가, 교육에서는 디지털 격차로 인한 새로운 불평등 우려가 남아 있습니다. 제시된 조사들에 따르면 2020년부터 2025년까지 관련 기업의 AI 도입 검토 비율은 연도별로 증가하는 추세를 보입니다. 일부 구간에서는 이러한 증가 추세가 반복되거나 다른 수치 패턴이 나타나지만, 전체적으로",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 294,
+   "prompt_tokens": 4160,
+   "total_tokens": 4454,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 2.486,
+  "time_to_answer_s": 5.917,
+  "total_s": 8.429,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 4160,
+   "prompt_ms": 2437.715,
+   "prompt_per_token_ms": 0.5859891826923077,
+   "prompt_per_second": 1706.516143191472,
+   "predicted_n": 294,
+   "predicted_ms": 5942.999,
+   "predicted_per_token_ms": 20.28327303754266,
+   "predicted_per_second": 49.30170777413895
+  },
+  "decode_tok_s": 49.3,
+  "name": "long_prompt_1"
+ },
+ {
+  "content": "1 인공지능 기술의 발전은 제조업의 공정 자동화와 품질 검사를 도와 생산성을 크게 향상시켰다.  \n2 의료 분야에서는 영상 판독 보조와 신약 후보 물질 탐색에서 성과가 나타났지만, 개인정보 보호와 책임 소재 문제는 여전히 해결해야 할 과제이다.  \n3 교육 현장에서는 맞춤형 학습 도구가 도입되어 학생 개개인의 수준에 맞춘 학습이 가능해졌다.  \n4 그러나 맞춤형 학습은 디지털 격차가 새로운 불평등을 낳을 수 있다는 우려를 낳는다.  \n5 본문에는 2020년부터 2025년까지 관련 기업의 인공지능 도입 검토 비율이 해마다 증가하는 수",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 292,
+   "prompt_tokens": 4160,
+   "total_tokens": 4452,
+   "prompt_tokens_details": {
+    "cached_tokens": 4156
+   }
+  },
+  "ttft_s": 0.077,
+  "time_to_answer_s": 3.918,
+  "total_s": 5.979,
+  "server_timings": {
+   "cache_n": 4156,
+   "prompt_n": 4,
+   "prompt_ms": 56.611,
+   "prompt_per_token_ms": 14.15275,
+   "prompt_per_second": 70.65764604052217,
+   "predicted_n": 292,
+   "predicted_ms": 5901.374,
+   "predicted_per_token_ms": 20.279635738831615,
+   "predicted_per_second": 49.31055039046839
+  },
+  "decode_tok_s": 49.3,
+  "name": "long_prompt_2"
+ }
+]

@@ -1,0 +1,89 @@
+{
+ "tokenizer.ggml.tokens": {
+  "community": "75d9e6ca921b886f",
+  "official": "75d9e6ca921b886f"
+ },
+ "tokenizer.ggml.merges": {
+  "community": "d931cae12eac899f",
+  "official": "d931cae12eac899f"
+ },
+ "tokenizer.ggml.token_type": {
+  "community": "d54439ef48197cc1",
+  "official": "d54439ef48197cc1"
+ },
+ "tokenizer.chat_template": {
+  "community": "e84f32a23fdda276",
+  "official": "e84f32a23fdda276"
+ },
+ "nvfp4_tensors_identical_official_vs_community": {
+  "same": 241,
+  "diff": 0,
+  "diff_examples": []
+ },
+ "fp8_path_error": [
+  {
+   "tensor": "L3 q_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.0013351441593840718,
+   "community_rmse": 9.377193047875608e-05,
+   "official_bf16_max_abs": 0.0009765326976776123,
+   "official_bf16_rmse": 2.9924003194862303e-05
+  },
+  {
+   "tensor": "L3 k_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.0007040854543447495,
+   "community_rmse": 9.513464093118135e-05,
+   "official_bf16_max_abs": 0.0003487616777420044,
+   "official_bf16_rmse": 2.6540763814841667e-05
+  },
+  {
+   "tensor": "L3 v_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.0005959095433354378,
+   "community_rmse": 7.9448913617409e-05,
+   "official_bf16_max_abs": 0.0002790093421936035,
+   "official_bf16_rmse": 1.727563867535752e-05
+  },
+  {
+   "tensor": "L3 o_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.002414703369140625,
+   "community_rmse": 8.372601684745647e-05,
+   "official_bf16_max_abs": 0.0008370578289031982,
+   "official_bf16_rmse": 2.6752477656465204e-05
+  },
+  {
+   "tensor": "L39 q_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.0016528535634279251,
+   "community_rmse": 0.00010040847677646739,
+   "official_bf16_max_abs": 0.0008370578289031982,
+   "official_bf16_rmse": 2.3749376753478942e-05
+  },
+  {
+   "tensor": "L39 k_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.0008528586477041245,
+   "community_rmse": 0.00010621432053648423,
+   "official_bf16_max_abs": 0.00041854381561279297,
+   "official_bf16_rmse": 2.1247694851307618e-05
+  },
+  {
+   "tensor": "L39 v_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.0014092577621340752,
+   "community_rmse": 0.00010635889428248656,
+   "official_bf16_max_abs": 0.0008370578289031982,
+   "official_bf16_rmse": 2.532956750487616e-05
+  },
+  {
+   "tensor": "L39 o_proj",
+   "community_type": "Q8_0",
+   "community_max_abs": 0.0020119808614253998,
+   "community_rmse": 0.00010204824149750779,
+   "official_bf16_max_abs": 0.0008370578289031982,
+   "official_bf16_rmse": 2.340095634407545e-05
+  }
+ ]
+}

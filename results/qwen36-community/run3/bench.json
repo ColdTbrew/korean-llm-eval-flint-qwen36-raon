@@ -1,0 +1,170 @@
+[
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 218,
+   "prompt_tokens": 23,
+   "total_tokens": 241,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.136,
+  "time_to_answer_s": 3.294,
+  "total_s": 3.397,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 23,
+   "prompt_ms": 75.494,
+   "prompt_per_token_ms": 3.2823478260869563,
+   "prompt_per_second": 304.659972977985,
+   "predicted_n": 218,
+   "predicted_ms": 3260.24,
+   "predicted_per_token_ms": 15.024147465437787,
+   "predicted_per_second": 66.55951709076632
+  },
+  "decode_tok_s": 66.6,
+  "name": "warmup"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 218,
+   "prompt_tokens": 23,
+   "total_tokens": 241,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.069,
+  "time_to_answer_s": 3.208,
+  "total_s": 3.313,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 42.348,
+   "prompt_per_token_ms": 10.587,
+   "prompt_per_second": 94.45546424860679,
+   "predicted_n": 218,
+   "predicted_ms": 3243.061,
+   "predicted_per_token_ms": 14.944981566820276,
+   "predicted_per_second": 66.91209323537238
+  },
+  "decode_tok_s": 66.9,
+  "name": "short_1"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 218,
+   "prompt_tokens": 23,
+   "total_tokens": 241,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.046,
+  "time_to_answer_s": 3.171,
+  "total_s": 3.279,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 43.028,
+   "prompt_per_token_ms": 10.757,
+   "prompt_per_second": 92.96272194849865,
+   "predicted_n": 218,
+   "predicted_ms": 3233.428,
+   "predicted_per_token_ms": 14.900589861751152,
+   "predicted_per_second": 67.1114371496752
+  },
+  "decode_tok_s": 67.1,
+  "name": "short_2"
+ },
+ {
+  "content": "아래는 Python으로 작성한 간단한 CLI 기반 할 일 관리 프로그램입니다. 데이터를 JSON 파일로 저장하여 프로그램을 종료해도 내용이 유지되도록 구현했으며, 한국어 설명과 함께 핵심 개념을 단계별로 정리했습니다.\n\n---\n### 📜 전체 코드 (`todo_cli.py`)\n```python\nimport json\nimport os\nfrom datetime import datetime\n\nFILE_NAME = \"todos.json\"\n\ndef load_todos():\n    \"\"\"저장된 JSON 파일에서 할 일 데이터를 불러옵니다.\"\"",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 3758,
+   "prompt_tokens": 30,
+   "total_tokens": 3788,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.085,
+  "time_to_answer_s": 32.171,
+  "total_s": 56.741,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 30,
+   "prompt_ms": 83.47,
+   "prompt_per_token_ms": 2.7823333333333333,
+   "prompt_per_second": 359.4105666706601,
+   "predicted_n": 3758,
+   "predicted_ms": 56655.219,
+   "predicted_per_token_ms": 15.079909236092627,
+   "predicted_per_second": 66.31339647632463
+  },
+  "decode_tok_s": 66.3,
+  "name": "long_gen"
+ },
+ {
+  "content": "인공지능 기술은 제조업의 생산성 향상, 의료 분야의 진단 및 신약 개발 보조, 교육의 맞춤형 학습 도구 도입 등 산업 전반에 걸쳐 혁신을 주도하고 있다. 그러나 의료의 개인정보 보호와 책임 소재 문제, 교육의 디지털 격차 확대 우려 등 명확한 해결 과제도 존재한다. 2020년부터 2025년까지의 관련 조사 결과는 매년 AI 도입을 검토 중인 기업의 비율이 꾸준히 증가하는 성장 추세를 보여",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 6091
+   }
+  },
+  "ttft_s": 0.116,
+  "time_to_answer_s": 14.202,
+  "total_s": 15.624,
+  "server_timings": {
+   "cache_n": 6091,
+   "prompt_n": 4,
+   "prompt_ms": 42.132,
+   "prompt_per_token_ms": 10.533,
+   "prompt_per_second": 94.9397132820659,
+   "predicted_n": 1024,
+   "predicted_ms": 15508.124,
+   "predicted_per_token_ms": 15.159456500488758,
+   "predicted_per_second": 65.965425605315
+  },
+  "decode_tok_s": 66.0,
+  "name": "long_prompt_1"
+ },
+ {
+  "content": "인공지능 기술은 제조업의 생산성 향상, 의료 분야의 진단 및 신약 개발 보조, 교육의 맞춤형 학습 도구 도입 등 산업 전반에 걸쳐 혁신을 주도하고 있다. 그러나 의료의 개인정보 보호와 책임 소재 문제, 교육의 디지털 격차 확대 우려 등 명확한 해결 과제도 존재한다. 2020년부터 2025년까지의 관련 조사 결과는 매년 AI 도입을 검토 중인 기업의 비율이 꾸준히 증가하는 성장 추세를 보여",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 6091
+   }
+  },
+  "ttft_s": 0.061,
+  "time_to_answer_s": 14.229,
+  "total_s": 15.638,
+  "server_timings": {
+   "cache_n": 6091,
+   "prompt_n": 4,
+   "prompt_ms": 44.624,
+   "prompt_per_token_ms": 11.156,
+   "prompt_per_second": 89.63786303334528,
+   "predicted_n": 1024,
+   "predicted_ms": 15576.959,
+   "predicted_per_token_ms": 15.226743890518085,
+   "predicted_per_second": 65.67392261865747
+  },
+  "decode_tok_s": 65.7,
+  "name": "long_prompt_2"
+ }
+]

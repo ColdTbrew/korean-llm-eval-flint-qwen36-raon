@@ -1,0 +1,170 @@
+[
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 187,
+   "prompt_tokens": 23,
+   "total_tokens": 210,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.435,
+  "time_to_answer_s": 3.833,
+  "total_s": 3.965,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 23,
+   "prompt_ms": 419.621,
+   "prompt_per_token_ms": 18.244391304347825,
+   "prompt_per_second": 54.811365494100635,
+   "predicted_n": 187,
+   "predicted_ms": 3529.473,
+   "predicted_per_token_ms": 18.97566129032258,
+   "predicted_per_second": 52.6990856708636
+  },
+  "decode_tok_s": 52.7,
+  "name": "warmup"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 134,
+   "prompt_tokens": 23,
+   "total_tokens": 157,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.075,
+  "time_to_answer_s": 2.5,
+  "total_s": 2.632,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 46.704,
+   "prompt_per_token_ms": 11.676,
+   "prompt_per_second": 85.64576909900651,
+   "predicted_n": 134,
+   "predicted_ms": 2557.359,
+   "predicted_per_token_ms": 19.228263157894737,
+   "predicted_per_second": 52.006777304242384
+  },
+  "decode_tok_s": 52.0,
+  "name": "short_1"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 216,
+   "prompt_tokens": 23,
+   "total_tokens": 239,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.075,
+  "time_to_answer_s": 4.064,
+  "total_s": 4.197,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 46.251,
+   "prompt_per_token_ms": 11.56275,
+   "prompt_per_second": 86.48461654883138,
+   "predicted_n": 216,
+   "predicted_ms": 4122.059,
+   "predicted_per_token_ms": 19.172367441860466,
+   "predicted_per_second": 52.15839947948343
+  },
+  "decode_tok_s": 52.2,
+  "name": "short_2"
+ },
+ {
+  "content": "아래는 파이썬으로 구현한 **단순 CLI(명령줄) 할 일 관리 프로그램**입니다. JSON 파일을 활용하여 데이터를 저장하고, 메뉴 기반으로 작업을 추가·확인·완료·삭제할 수 있도록 구성했습니다.\n\n---\n### 🐍 전체 코드 (`todo_cli.py`)\n\n```python\nimport json\nimport os\n\n# 작업 데이터를 저장할 파일 경로\nDATA_FILE = \"todos.json\"\n\ndef load_todos():\n    \"\"\"저장된 할 일 목록을 파일에서 읽어옵니다.\"\"\"\n    if os.path.exists(DAT",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 4096,
+   "prompt_tokens": 30,
+   "total_tokens": 4126,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.121,
+  "time_to_answer_s": 42.272,
+  "total_s": 79.723,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 30,
+   "prompt_ms": 91.841,
+   "prompt_per_token_ms": 3.0613666666666663,
+   "prompt_per_second": 326.65149551943034,
+   "predicted_n": 4096,
+   "predicted_ms": 79601.816,
+   "predicted_per_token_ms": 19.438782905982908,
+   "predicted_per_second": 51.443549981322036
+  },
+  "decode_tok_s": 51.4,
+  "name": "long_gen"
+ },
+ {
+  "content": "",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 3.031,
+  "time_to_answer_s": null,
+  "total_s": 23.086,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 6095,
+   "prompt_ms": 2971.517,
+   "prompt_per_token_ms": 0.48753355209187854,
+   "prompt_per_second": 2051.1408819131775,
+   "predicted_n": 1024,
+   "predicted_ms": 20055.511,
+   "predicted_per_token_ms": 19.604605083088952,
+   "predicted_per_second": 51.0084235699604
+  },
+  "decode_tok_s": 51.0,
+  "name": "long_prompt_1"
+ },
+ {
+  "content": "",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 6091
+   }
+  },
+  "ttft_s": 0.065,
+  "time_to_answer_s": null,
+  "total_s": 20.138,
+  "server_timings": {
+   "cache_n": 6091,
+   "prompt_n": 4,
+   "prompt_ms": 49.605,
+   "prompt_per_token_ms": 12.40125,
+   "prompt_per_second": 80.6370325572019,
+   "predicted_n": 1024,
+   "predicted_ms": 20072.915,
+   "predicted_per_token_ms": 19.62161779081134,
+   "predicted_per_second": 50.96419727777455
+  },
+  "decode_tok_s": 51.0,
+  "name": "long_prompt_2"
+ }
+]

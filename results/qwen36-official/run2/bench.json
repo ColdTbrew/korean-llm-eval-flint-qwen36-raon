@@ -1,0 +1,170 @@
+[
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 144,
+   "prompt_tokens": 23,
+   "total_tokens": 167,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.325,
+  "time_to_answer_s": 2.972,
+  "total_s": 3.109,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 23,
+   "prompt_ms": 309.439,
+   "prompt_per_token_ms": 13.453869565217392,
+   "prompt_per_second": 74.32805819563791,
+   "predicted_n": 144,
+   "predicted_ms": 2784.167,
+   "predicted_per_token_ms": 19.4696993006993,
+   "predicted_per_second": 51.36186155500012
+  },
+  "decode_tok_s": 51.4,
+  "name": "warmup"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 144,
+   "prompt_tokens": 23,
+   "total_tokens": 167,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.079,
+  "time_to_answer_s": 2.718,
+  "total_s": 2.852,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 48.784,
+   "prompt_per_token_ms": 12.196,
+   "prompt_per_second": 81.99409642505739,
+   "predicted_n": 144,
+   "predicted_ms": 2773.809,
+   "predicted_per_token_ms": 19.397265734265737,
+   "predicted_per_second": 51.55365780412422
+  },
+  "decode_tok_s": 51.6,
+  "name": "short_1"
+ },
+ {
+  "content": "한국의 수도는 서울입니다.",
+  "finish_reason": "stop",
+  "usage": {
+   "completion_tokens": 144,
+   "prompt_tokens": 23,
+   "total_tokens": 167,
+   "prompt_tokens_details": {
+    "cached_tokens": 19
+   }
+  },
+  "ttft_s": 0.049,
+  "time_to_answer_s": 2.676,
+  "total_s": 2.811,
+  "server_timings": {
+   "cache_n": 19,
+   "prompt_n": 4,
+   "prompt_ms": 47.303,
+   "prompt_per_token_ms": 11.82575,
+   "prompt_per_second": 84.56123290277573,
+   "predicted_n": 144,
+   "predicted_ms": 2761.32,
+   "predicted_per_token_ms": 19.309930069930072,
+   "predicted_per_second": 51.786826590181505
+  },
+  "decode_tok_s": 51.8,
+  "name": "short_2"
+ },
+ {
+  "content": "아래는 Python으로 작성한 **간단한 할 일 관리 CLI(Command Line Interface)** 프로그램입니다. 기능을 추가·목록 확인·완료 처리·삭제할 수 있으며, 작업 데이터는 JSON 파일로 자동 저장됩니다.\n\n### 📜 전체 코드 (`todo_cli.py`)\n```python\nimport json\nimport os\n\nDATA_FILE = \"todos.json\"\n\ndef load_todos():\n    \"\"\"저장된 JSON 파일에서 할 일 목록을 불러옵니다.\"\"\"\n    if os.path.exists(DATA_FI",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 4096,
+   "prompt_tokens": 30,
+   "total_tokens": 4126,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 0.094,
+  "time_to_answer_s": 45.882,
+  "total_s": 80.082,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 30,
+   "prompt_ms": 91.554,
+   "prompt_per_token_ms": 3.0518,
+   "prompt_per_second": 327.67547021429976,
+   "predicted_n": 4096,
+   "predicted_ms": 79987.166,
+   "predicted_per_token_ms": 19.532885470085468,
+   "predicted_per_second": 51.19571307226962
+  },
+  "decode_tok_s": 51.2,
+  "name": "long_gen"
+ },
+ {
+  "content": "인공지능 기술의 발전은 제조, 의료, 교육 등 산업 전반에 걸쳐 혁신적인 변화를 이끌고 있다. 특히 제조업에서는 공정 자동화와 품질 검사를 통해 생산성이 크게 향상되었으며, 의료 분야에서는 영상 판독 보조와 신약 후보 물질 탐색에서 괄목할 성과를 거두고 있다. 다만 의료 개인정보 보호와 책임 소재 문제, 그리고 교육 현장의 디지털 격차로 인한 불평등 확대 우려 등 해결해야 할 사회적·윤리적 과제도 함께 대두되었다. 2020년부터 20",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "ttft_s": 2.929,
+  "time_to_answer_s": 21.071,
+  "total_s": 23.25,
+  "server_timings": {
+   "cache_n": 0,
+   "prompt_n": 6095,
+   "prompt_ms": 2872.705,
+   "prompt_per_token_ms": 0.47132157506152583,
+   "prompt_per_second": 2121.693665029998,
+   "predicted_n": 1024,
+   "predicted_ms": 20321.801,
+   "predicted_per_token_ms": 19.864908113391984,
+   "predicted_per_second": 50.34002645730071
+  },
+  "decode_tok_s": 50.3,
+  "name": "long_prompt_1"
+ },
+ {
+  "content": "인공지능 기술의 발전은 제조, 의료, 교육 등 산업 전반에 걸쳐 혁신적인 변화를 이끌고 있다. 특히 제조업에서는 공정 자동화와 품질 검사를 통해 생산성이 크게 향상되었으며, 의료 분야에서는 영상 판독 보조와 신약 후보 물질 탐색에서 괄목할 성과를 거두고 있다. 다만 의료 개인정보 보호와 책임 소재 문제, 그리고 교육 현장의 디지털 격차로 인한 불평등 확대 우려 등 해결해야 할 사회적·윤리적 과제도 함께 대두되었다. 2020년부터 20",
+  "finish_reason": "length",
+  "usage": {
+   "completion_tokens": 1024,
+   "prompt_tokens": 6095,
+   "total_tokens": 7119,
+   "prompt_tokens_details": {
+    "cached_tokens": 6091
+   }
+  },
+  "ttft_s": 0.062,
+  "time_to_answer_s": 18.147,
+  "total_s": 20.31,
+  "server_timings": {
+   "cache_n": 6091,
+   "prompt_n": 4,
+   "prompt_ms": 52.671,
+   "prompt_per_token_ms": 13.16775,
+   "prompt_per_second": 75.94311860416548,
+   "predicted_n": 1024,
+   "predicted_ms": 20247.967,
+   "predicted_per_token_ms": 19.79273411534702,
+   "predicted_per_second": 50.523590837539395
+  },
+  "decode_tok_s": 50.5,
+  "name": "long_prompt_2"
+ }
+]
